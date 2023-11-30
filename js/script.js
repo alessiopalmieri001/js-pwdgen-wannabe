@@ -20,10 +20,10 @@ console.log(numero);
 console.log(
 
     `
-    ${username_insert}
-    ${surname_insert}
-    ${color_insert}
-    ${numero} 
+    ${username_insert} ${surname_insert} ${color_insert} ${numero} 
     `
 )
-    
+document.writeln(username_insert);
+document.writeln(surname_insert);
+document.writeln(color_insert);
+document.writeln(numero);
